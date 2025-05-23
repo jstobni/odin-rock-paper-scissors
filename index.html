@@ -7,9 +7,19 @@
     <script src="rock-paper-scissors.js"></script>
 </head>
 <body>
-    <button id="rock" data-choice="rock">Rock</button>
-    <button id="paper" data-choice="paper">Paper</button>
-    <button id="scissors" data-choice="scissors">Scissors</button>
+    <div id="buttons">
+        <button id="rock" data-choice="rock">Rock</button>
+        <button id="paper" data-choice="paper">Paper</button>
+        <button id="scissors" data-choice="scissors">Scissors</button>
+    </div>
+    <div id="score">
+        <div id="humanScoreElement">
+            <p>Your Score: <span id="humanScore">0</span></p>
+        </div>
+        <div id="computerScoreElement">
+            <p>Computer Score: <span id="computerScore">0</span></p>
+        </div>
+    </div>
     <div id="result"></div>
 </body>
 </html>
